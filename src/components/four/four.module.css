@@ -1,0 +1,47 @@
+.four{
+    background-color: #22263585;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.fourWrapper{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    margin-top: 60px;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    color: #FFF;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.logo3{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    justify-content: center
+}
+
+.button a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #05c7f2 -0.8%, #6c69f7 98.5%);
+}

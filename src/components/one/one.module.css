@@ -1,0 +1,136 @@
+.one {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.Wrapper {
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.one_txt {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.one_txt h2 {
+  max-width: 37ch;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.one_txt span {
+  font-family: "Poppins", sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.one_txt p {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 47ch;
+  color: #d7d7d7;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.button {
+  display: inline-flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.one_btn a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 12px 24px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #05c7f2 -0.8%, #6c69f7 98.5%);
+}
+
+.one_btn a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.one_btn2 a {
+  color: #d7d7d7;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 12px 24px;
+  border-radius: 16px;
+  border: 1px solid #d7d7d7;
+}
+
+.one_btn2 a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.imgone{
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+@keyframes logo-spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference){
+  .imgone{
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 600px){
+  .Wrapper{
+    flex-direction: column;
+  }
+  .button{
+    flex-direction: column;
+  }
+  .one_txt{
+    max-width: 60ch;
+    display: flex;
+    flex-direction: column;
+  }
+  .one_txt h2{
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: left;
+    max-width: 60ch;
+    text-align: center;
+  }
+  .one_txt span{
+    font-size: 20px;
+  }
+  .one_txt p{
+    font-size: 20px;
+    text-align: left;
+    max-width: 60ch;
+    text-align: center;
+  }
+}
