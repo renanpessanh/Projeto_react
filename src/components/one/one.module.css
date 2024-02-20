@@ -85,25 +85,6 @@
     color: #000;
 }
 
-.imgone{
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-@keyframes logo-spin {
-  from{
-    transform: rotate(0deg);
-  }
-  to{
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference){
-  .imgone{
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 @media (max-width: 600px){
   .Wrapper{
